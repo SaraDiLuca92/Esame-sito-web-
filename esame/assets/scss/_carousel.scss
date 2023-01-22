@@ -1,0 +1,110 @@
+.testimonial-area .person .imgcar {
+  position: relative;
+
+  width: 81px;
+  bottom: 51px;
+  height: 83px;
+  //margin-left: 400px;
+}
+.testimonial-area {
+  padding: 30px 0;
+  background-color: rgba(49, 44, 44, 0.06);
+  background-size: cover;
+  background-position: center;
+  margin-top: 97px;
+}
+.testimonial-area #people {
+  font-size: x-large;
+  font-family: $lora-font-family;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 9px;
+  color: black;
+}
+.testimonial-area .section-header {
+  padding-bottom: 15px;
+}
+.testimonial-area .section-header h2 {
+  font-weight: 700;
+  font-size: medium;
+}
+.testimonial-area .section-header p {
+  color: grey;
+  width: 40%;
+  margin: auto;
+}
+
+.testimonial-area .icon-area {
+  text-align: center;
+}
+.testimonial-area .content p {
+  color: #625f5f;
+  width: 60%;
+  margin: auto;
+  margin-top: 16px;
+  font-family: $water-font-family;
+  font-size: xx-large;
+  text-align: center;
+}
+.testimonial-area .person {
+  width: 82px;
+  height: 82px;
+  display: block;
+  margin: auto;
+  margin-top: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #0000001a;
+  margin-top: 30px;
+}
+.person img {
+  width: 100%;
+}
+.content h5 {
+  font-weight: 900;
+  margin-top: 15px;
+}
+.testimonial-area .carousel-indicators [data-bs-target] {
+  width: 60px;
+  height: 10px;
+  background: black;
+}
+.testimonial-area .carousel-item {
+  height: fit-content;
+}
+.testimonial-area li {
+  background-color: black;
+}
+.active {
+  background-color: black;
+}
+
+.testimonial-area .container {
+  height: 405px;
+  width: 1007px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.content h5 {
+  color: #77626280;
+  margin-left: 10px;
+  font-family: $water-font-family;
+  font-size: xx-large;
+}
+.content h6 {
+  color: #625f5f;
+  margin-left: 10px;
+  font-family: $water-font-family;
+  font-size: large;
+}
+.testimonial-area .carousel-indicators {
+  margin-left: 20%;
+}
+
+#people {
+  padding: 10px;
+}
+.active {
+  background-color: rgba(0, 0, 0, 0.14);
+}

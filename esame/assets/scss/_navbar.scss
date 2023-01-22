@@ -1,0 +1,28 @@
+.navbar-expand-lg .navbar-collapse {
+  justify-content: end;
+}
+.img-fluid {
+  width: 35px;
+}
+nav {
+  font-family: $sat-font-family;
+  font-size: 20px;
+  position: fixed;
+  z-index: 10;
+}
+.my-nav {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+a.nav-link.active {
+  background: none;
+}
+.navbar-nav {
+  @media screen and(min-width:300px) and (max-width: 1084px) {
+    padding-left: 36px;
+  }
+}

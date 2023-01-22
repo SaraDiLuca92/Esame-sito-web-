@@ -1,0 +1,27 @@
+@import "variabili";
+@import "navbar";
+@import "main";
+@import "main";
+@import "partnership";
+@import "carousel";
+@import "darklightmode";
+
+//MEDIA SCREEN\\
+body {
+  @media screen and (min-width: 300px) and (max-width: 1084px) {
+    width: 156vh;
+  }
+}
+.navbar-nav {
+  @media screen and (min-width: 300px) and (max-width: 1084px) {
+    padding-left: 36px;
+  }
+}
+footer .justify-content-end {
+  @media screen and (min-width: 300px) and (max-width: 1084px) {
+    margin-top: -112px;
+  }
+}
+html {
+  width: auto;
+}
